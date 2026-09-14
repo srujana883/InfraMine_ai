@@ -1,0 +1,8 @@
+langgraph
+langchain-core
+langchain-google-genai
+pydantic
+python-dotenv
+pandas
+pypdf
+
