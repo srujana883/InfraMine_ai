@@ -1,0 +1,2 @@
+"""InfraMiner AI — Shared utilities."""
+
