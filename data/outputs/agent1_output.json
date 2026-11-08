@@ -1,0 +1,162 @@
+{
+  "project_name": "Vadhavan Port",
+  "project_type": "Container port (deep-draft, satellite port)",
+  "project_location": {
+    "lat": null,
+    "lng": null
+  },
+  "project_scope": "Development of a deep-draft, all-weather container port as a satellite of Jawaharlal Nehru Port Authority, including construction of a 10,140 m offshore breakwater, reclamation, a 1,000 m contiguous berth per terminal (initial Phase 1), up to nine 1,000 m container terminals by 2040, associated quay infrastructure, road and rail connectivity, quarry sourcing of rock (≈32.1 million t for breakwater), and implementation of green and social mitigation measures.",
+  "project_constraints": [
+    "No interference with local community",
+    "Independent approaches to the port",
+    "Proximity to existing fishing harbour and fishermen settlements in the north",
+    "Shankodhar point in the middle of the sea must be preserved",
+    "Mangroves and rocky outcrop near the coast",
+    "Minimum 300 m clearance between shoreline and bund to avoid disturbing mangrove flow",
+    "Locating terminal and onshore facilities on reclaimed land",
+    "Minimize impact on adjoining population and villages",
+    "Rail and road access planned for minimal impact on adjoining village",
+    "Facilities for Coast Guard to improve security",
+    "Environmental considerations for green design concepts",
+    "Technical constraints due to site physical conditions"
+  ],
+  "project_timeline": "Phase 1 development targeting initial berth capacity and breakwater construction with reference capacity figures for 2030; Phase 2 expansion to achieve full master-plan capacity by 2040, including additional container terminals.",
+  "materials": [
+    {
+      "material_name": "Reclamation fill material",
+      "quantity": 177.0,
+      "unit": "million m3",
+      "specification": null,
+      "purpose": "reclamation (Phase 1)",
+      "alternatives": []
+    },
+    {
+      "material_name": "Dredged material suitable for reclamation",
+      "quantity": 7.0,
+      "unit": "million m3",
+      "specification": "dredged material",
+      "purpose": "reclamation fill",
+      "alternatives": []
+    },
+    {
+      "material_name": "External fill material (marine borrow pit)",
+      "quantity": 170.0,
+      "unit": "million m3",
+      "specification": "external source / marine borrow pit",
+      "purpose": "reclamation fill",
+      "alternatives": []
+    },
+    {
+      "material_name": "Murrum fill / burrowed earth",
+      "quantity": null,
+      "unit": null,
+      "specification": null,
+      "purpose": "fill up to +7.0 CD",
+      "alternatives": []
+    },
+    {
+      "material_name": "Accropode IITM",
+      "quantity": null,
+      "unit": null,
+      "specification": "Accropode IITM concrete unit",
+      "purpose": "primary armour layer on seaside slope of offshore breakwater",
+      "alternatives": []
+    },
+    {
+      "material_name": "Underlayer rock (seaside breakwater)",
+      "quantity": null,
+      "unit": "kg",
+      "specification": "2,000-4,000 kg",
+      "purpose": "underlayer rock for offshore breakwater",
+      "alternatives": []
+    },
+    {
+      "material_name": "Rock armour (leeside)",
+      "quantity": null,
+      "unit": "kg",
+      "specification": "2,000 - 4,000 kg",
+      "purpose": "primary armour layer on leeside slope",
+      "alternatives": []
+    },
+    {
+      "material_name": "Quarry run (underlayer rock leeside)",
+      "quantity": null,
+      "unit": null,
+      "specification": "Quarry run",
+      "purpose": "underlayer rock for leeside of breakwater",
+      "alternatives": []
+    },
+    {
+      "material_name": "Quarry run material (core)",
+      "quantity": null,
+      "unit": null,
+      "specification": "size range 1 to 500 kg, coefficient of uniformity (D60/D10) ≥ 3.0",
+      "purpose": "core of offshore breakwater",
+      "alternatives": []
+    },
+    {
+      "material_name": "Rock/stone for breakwater construction",
+      "quantity": 32.1,
+      "unit": "million tons",
+      "specification": "rock/stone",
+      "purpose": "breakwater construction",
+      "alternatives": []
+    },
+    {
+      "material_name": "Rock/stone for reclamation/shoor protection bund",
+      "quantity": 16.0,
+      "unit": "million tons",
+      "specification": "rock/stone",
+      "purpose": "construction of reclamation and shore protection bund",
+      "alternatives": []
+    },
+    {
+      "material_name": "Geotextile membrane",
+      "quantity": null,
+      "unit": null,
+      "specification": null,
+      "purpose": "rear face of reclamation bund to enhance fill retention",
+      "alternatives": []
+    },
+    {
+      "material_name": "Soil dredged",
+      "quantity": 3574922.0,
+      "unit": "cum",
+      "specification": null,
+      "purpose": "soil dredging",
+      "alternatives": []
+    },
+    {
+      "material_name": "Rock dredged (CSD)",
+      "quantity": 3007552.0,
+      "unit": "cum",
+      "specification": null,
+      "purpose": "rock dredging",
+      "alternatives": []
+    },
+    {
+      "material_name": "Total dredging quantity",
+      "quantity": 6582474.0,
+      "unit": "cum",
+      "specification": null,
+      "purpose": "total dredging (soil + rock)",
+      "alternatives": []
+    },
+    {
+      "material_name": "Weathered rock to be dredged in channel",
+      "quantity": 3007000.0,
+      "unit": "m3",
+      "specification": "weathered rock",
+      "purpose": "channel dredging",
+      "alternatives": []
+    }
+  ],
+  "messages": [
+    "Agent 1: Extracted project information successfully.",
+    "Agent 1: Identified 16 material(s) from project documents."
+  ],
+  "current_agent": "project_material_intelligence",
+  "completed_agents": [
+    "project_material_intelligence"
+  ]
+}

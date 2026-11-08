@@ -1,0 +1,10 @@
+scenario_id,scenario_name,description,affected_source_types,affected_transport_modes,probability,severity,data_type,notes
+DS-01,Monsoon disruption,Heavy rainfall and flooding disrupts quarry and road operations for 3-4 months,quarry,road,0.9,0.6,assumption,DEMO: Western India monsoon is seasonal and predictable
+DS-02,Cyclone event,Tropical cyclone disrupts marine and coastal operations,marine_borrow;dredging,marine,0.15,0.9,assumption,DEMO: Arabian Sea cyclone probability for western coast
+DS-03,Labour dispute,Strike or labour shortage affects quarry and supplier operations,quarry;supplier,road;rail,0.2,0.5,assumption,DEMO: General industrial labour disruption risk
+DS-04,Regulatory hold,Environmental or CRZ clearance delay halts extraction,quarry;marine_borrow;dredging,,0.3,0.7,assumption,DEMO: Regulatory delays are common in coastal projects
+DS-05,Road infrastructure failure,Major road damage or bridge failure blocks road transport,,road,0.1,0.6,assumption,DEMO: Road network vulnerability in rural/semi-urban areas
+DS-06,Rail disruption,Rail network congestion or maintenance block,,rail,0.15,0.4,assumption,DEMO: Indian rail network occasional disruption
+DS-07,Source depletion,Quarry or borrow pit reaches capacity/quality limits,quarry;marine_borrow,,0.1,0.8,assumption,DEMO: Long-term source exhaustion risk
+DS-08,Quality failure,Source material fails specification requirements,quarry;marine_borrow;dredging,,0.15,0.5,assumption,DEMO: Material quality variance risk
+

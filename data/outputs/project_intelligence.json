@@ -1,0 +1,24 @@
+{
+  "project_name": "Vadhavan Port",
+  "project_type": "Deep draft all-weather container port",
+  "project_location": {
+    "lat": null,
+    "lng": null
+  },
+  "project_scope": "Development of Vadhavan Port as a deep draft, all-weather satellite port of Jawaharlal Nehru Port Authority (JNPA) for clean cargo. Major components include 9 container terminals with a total quay length of 9,000 m (Phase 1 comprising 1,000 m contiguous berth per terminal), backup storage area of about 500 m width on reclaimed land, multipurpose, Ro-Ro, liquid, and port craft terminals, an offshore breakwater of 10,140 m length requiring approximately 32.1 million tons of rock, nearshore reclamation, a common rail yard, and approach roads connecting to NH 48 and quarry sites.",
+  "project_constraints": [
+    "15 non-operational days per year due to weather and a 4-month halt of marine plant breakwater construction during the monsoon season.",
+    "Minimum 300 m clearance required between the shoreline and bund to avoid disturbing water flow to mangroves.",
+    "No interference with the local community, taking into account proximity to an existing fishing harbour and fishermen settlements in the north.",
+    "Preservation of and unimpeded access to Shankodhar Point.",
+    "High rock dredging required towards the east due to shallow bed rock levels.",
+    "Extreme design wave and water level conditions including a 2 m storm surge (100-year return period) and a 0.2 m sea levelrise over a 50-year design life.",
+    "Berth utilization limited to 75%-80% to prevent vessel queuing."
+  ],
+  "project_timeline": "Planned for development in two phases (Phase 1 and Phase 2) to meet demand forecasts for target years 2030 and 2040, with master plan expansion potential extending beyond 2040. Breakwater construction is scheduled as the foremost activity for Phase 1. Structures are designed for a 50-year design life through 2065.",
+  "current_agent": "project_intelligence",
+  "completed_agents": [
+    "project_intelligence"
+  ],
+  "_status": "COMPLETED"
+}

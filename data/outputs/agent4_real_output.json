@@ -1,0 +1,1137 @@
+{
+  "decision_results": {
+    "methodology": "AHP-TOPSIS",
+    "ahp": {
+      "pairwise_matrix": [
+        [
+          1.0,
+          2.0,
+          2.0,
+          0.5
+        ],
+        [
+          0.5,
+          1.0,
+          0.5,
+          0.3333333333333333
+        ],
+        [
+          0.5,
+          2.0,
+          1.0,
+          0.5
+        ],
+        [
+          2.0,
+          3.0,
+          2.0,
+          1.0
+        ]
+      ],
+      "criteria": [
+        "cost",
+        "logistics",
+        "environmental",
+        "resilience"
+      ],
+      "criterion_types": {
+        "cost": "cost",
+        "logistics": "cost",
+        "environmental": "cost",
+        "resilience": "benefit"
+      },
+      "weights": {
+        "cost": 0.2685,
+        "logistics": 0.1213,
+        "environmental": 0.1899,
+        "resilience": 0.4203
+      },
+      "lambda_max": 4.0709,
+      "consistency_index": 0.0236,
+      "consistency_ratio": 0.0262,
+      "is_consistent": true
+    },
+    "topsis": {
+      "decision_matrix_size": "14 alternatives x 4 criteria",
+      "normalized_matrix": [
+        [
+          1.9078512935992203e-05,
+          0.5984982192231337,
+          0.2672612419124244,
+          0.13538810472195725
+        ],
+        [
+          7.545174607454543e-07,
+          0.05440892902028489,
+          0.2672612419124244,
+          0.13538810472195725
+        ],
+        [
+          0.3637562377860188,
+          0.18499035866896862,
+          0.2672612419124244,
+          0.2256468412032621
+        ],
+        [
+          0.3637562377860188,
+          0.18499035866896862,
+          0.2672612419124244,
+          0.3159055776845669
+        ],
+        [
+          0.3637562377860188,
+          0.20675393027708258,
+          0.2672612419124244,
+          0.2256468412032621
+        ],
+        [
+          0.3637562377860188,
+          0.20675393027708258,
+          0.2672612419124244,
+          0.3159055776845669
+        ],
+        [
+          0.3637562377860188,
+          0.21763571608113955,
+          0.2672612419124244,
+          0.3159055776845669
+        ],
+        [
+          0.3637562377860188,
+          0.21763571608113955,
+          0.2672612419124244,
+          0.3159055776845669
+        ],
+        [
+          0.3637562377860188,
+          0.27204464510142445,
+          0.2672612419124244,
+          0.3159055776845669
+        ],
+        [
+          0.2716059569992495,
+          0.032645357412170936,
+          0.2672612419124244,
+          0.13538810472195725
+        ],
+        [
+          3.8824184030504555e-06,
+          0.2829264309054814,
+          0.2672612419124244,
+          0.2933408935642407
+        ],
+        [
+          3.8824184030504555e-06,
+          0.2611628592973675,
+          0.2672612419124244,
+          0.2933408935642407
+        ],
+        [
+          3.8824184030504555e-06,
+          0.27204464510142445,
+          0.2672612419124244,
+          0.2933408935642407
+        ],
+        [
+          3.8824184030504555e-06,
+          0.3046900025135954,
+          0.2672612419124244,
+          0.2933408935642407
+        ]
+      ],
+      "weighted_matrix": [
+        [
+          5.1225807233139065e-06,
+          0.07259783399176613,
+          0.0507529098391694,
+          0.05690362041463863
+        ],
+        [
+          2.0258793821015449e-07,
+          0.006599803090160557,
+          0.0507529098391694,
+          0.05690362041463863
+        ],
+        [
+          0.09766854984554606,
+          0.022439330506545896,
+          0.0507529098391694,
+          0.09483936735773106
+        ],
+        [
+          0.09766854984554606,
+          0.022439330506545896,
+          0.0507529098391694,
+          0.13277511430082348
+        ],
+        [
+          0.09766854984554606,
+          0.02507925174261012,
+          0.0507529098391694,
+          0.09483936735773106
+        ],
+        [
+          0.09766854984554606,
+          0.02507925174261012,
+          0.0507529098391694,
+          0.13277511430082348
+        ],
+        [
+          0.09766854984554606,
+          0.02639921236064223,
+          0.0507529098391694,
+          0.13277511430082348
+        ],
+        [
+          0.09766854984554606,
+          0.02639921236064223,
+          0.0507529098391694,
+          0.13277511430082348
+        ],
+        [
+          0.09766854984554606,
+          0.03299901545080279,
+          0.0507529098391694,
+          0.13277511430082348
+        ],
+        [
+          0.0729261994542985,
+          0.003959881854096335,
+          0.0507529098391694,
+          0.05690362041463863
+        ],
+        [
+          1.0424293412190474e-06,
+          0.0343189760688349,
+          0.0507529098391694,
+          0.12329117756505037
+        ],
+        [
+          1.0424293412190474e-06,
+          0.03167905483277068,
+          0.0507529098391694,
+          0.12329117756505037
+        ],
+        [
+          1.0424293412190474e-06,
+          0.03299901545080279,
+          0.0507529098391694,
+          0.12329117756505037
+        ],
+        [
+          1.0424293412190474e-06,
+          0.036958897304899124,
+          0.0507529098391694,
+          0.12329117756505037
+        ]
+      ],
+      "ideal_solution": [
+        0.0,
+        0.00396,
+        0.050753,
+        0.132775
+      ],
+      "negative_ideal_solution": [
+        0.097669,
+        0.072598,
+        0.050753,
+        0.056904
+      ],
+      "d_plus": [
+        0.102312,
+        0.075917,
+        0.106394,
+        0.099401,
+        0.106884,
+        0.099926,
+        0.100213,
+        0.100213,
+        0.101894,
+        0.105236,
+        0.031806,
+        0.029297,
+        0.030549,
+        0.034335
+      ],
+      "d_minus": [
+        0.097663,
+        0.117876,
+        0.062889,
+        0.090953,
+        0.060804,
+        0.089524,
+        0.08883,
+        0.08883,
+        0.085584,
+        0.072961,
+        0.124143,
+        0.124982,
+        0.124556,
+        0.123355
+      ],
+      "closeness_coefficients": [
+        0.4884,
+        0.6083,
+        0.3715,
+        0.4778,
+        0.3626,
+        0.4725,
+        0.4699,
+        0.4699,
+        0.4565,
+        0.4094,
+        0.796,
+        0.8101,
+        0.803,
+        0.7823
+      ]
+    },
+    "ranking": [
+      {
+        "source_id": "VAD-Q08",
+        "source_name": "Borsheti Quarry",
+        "material_name": "Basalt stone / Aggregate",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 53609.889,
+        "raw_logistics": 24.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.65,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 53609.889,
+        "actual_distance_km": 24.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.65,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.8101,
+        "rank": 1,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q09",
+        "source_name": "Kirat Quarry",
+        "material_name": "Basalt stone / Aggregate",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 53609.889,
+        "raw_logistics": 25.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.65,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 53609.889,
+        "actual_distance_km": 25.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.65,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.803,
+        "rank": 2,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q10",
+        "source_name": "Nagzari Quarry",
+        "material_name": "Basalt stone / Aggregate / Armour stone",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 53609.889,
+        "raw_logistics": 26.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.65,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 53609.889,
+        "actual_distance_km": 26.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.65,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.796,
+        "rank": 3,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q11",
+        "source_name": "Girnoli Quarry",
+        "material_name": "Basalt stone / Aggregate",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 53609.889,
+        "raw_logistics": 28.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.65,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 53609.889,
+        "actual_distance_km": 28.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.65,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.7823,
+        "rank": 4,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-D01",
+        "source_name": "Vadhavan Port Approach Channel & Navigation Basin Capital Dredging",
+        "material_name": "Dredged material suitable for reclamation fill",
+        "source_type": "dredging_source",
+        "excluded": false,
+        "raw_cost": 10418.66,
+        "raw_logistics": 5.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.3,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 10418.66,
+        "actual_distance_km": 5.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.3,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.6083,
+        "rank": 5,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-M01",
+        "source_name": "Offshore Daman Sand Borrow Area (OAMDR Act Reserved Area)",
+        "material_name": "Marine sand / Reclamation fill",
+        "source_type": "marine_borrow",
+        "excluded": false,
+        "raw_cost": 263443.26,
+        "raw_logistics": 55.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.3,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 263443.26,
+        "actual_distance_km": 55.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.3,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.4884,
+        "rank": 6,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q02",
+        "source_name": "Gargaon Quarry (Hillock B)",
+        "material_name": "Basalt rock / Hard murrum",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 5022882519.679999,
+        "raw_logistics": 17.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.7,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 5022882519.679999,
+        "actual_distance_km": 17.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.7,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.4778,
+        "rank": 7,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q04",
+        "source_name": "Khanivade Quarry (Hillock D)",
+        "material_name": "Basalt rock / Hard murrum",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 5022882519.679999,
+        "raw_logistics": 19.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.7,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 5022882519.679999,
+        "actual_distance_km": 19.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.7,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.4725,
+        "rank": 8,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q05",
+        "source_name": "Mahagaon Quarry (Hillock E)",
+        "material_name": "Basalt rock / Hard murrum",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 5022882519.679999,
+        "raw_logistics": 20.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.7,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 5022882519.679999,
+        "actual_distance_km": 20.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.7,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.4699,
+        "rank": 9,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q06",
+        "source_name": "Mahagaon Quarry (Hillock F)",
+        "material_name": "Basalt rock / Hard murrum",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 5022882519.679999,
+        "raw_logistics": 20.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.7,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 5022882519.679999,
+        "actual_distance_km": 20.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.7,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.4699,
+        "rank": 10,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q07",
+        "source_name": "Nanivali Quarry (Hillock G)",
+        "material_name": "Basalt rock / Hard murrum",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 5022882519.679999,
+        "raw_logistics": 25.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.7,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 5022882519.679999,
+        "actual_distance_km": 25.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.7,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.4565,
+        "rank": 11,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-M02",
+        "source_name": "Vadhavan Port Concrete Element Casting Yard",
+        "material_name": "Accropode II concrete armour units (11 cum and 13 cum units)",
+        "source_type": "manufacturing_unit",
+        "excluded": false,
+        "raw_cost": 3750436891.3530793,
+        "raw_logistics": 3.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.3,
+        "cost_available": false,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": null,
+        "actual_distance_km": 3.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.3,
+        "cost_status": "unavailable (neutral average applied for TOPSIS)",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.4094,
+        "rank": 12,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q01",
+        "source_name": "Gargaon Quarry (Hillock A) / Patch-1",
+        "material_name": "Basalt rock / Hard murrum",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 5022882519.679999,
+        "raw_logistics": 17.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.5,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 5022882519.679999,
+        "actual_distance_km": 17.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.5,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.3715,
+        "rank": 13,
+        "is_viable": true
+      },
+      {
+        "source_id": "VAD-Q03",
+        "source_name": "Khanivade Quarry (Hillock C) / Patch-5",
+        "material_name": "Basalt rock / Hard murrum",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 5022882519.679999,
+        "raw_logistics": 19.0,
+        "raw_environmental": 0.5,
+        "raw_resilience": 0.5,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": false,
+        "resilience_available": true,
+        "actual_cost": 5022882519.679999,
+        "actual_distance_km": 19.0,
+        "actual_environmental_score": null,
+        "actual_resilience_score": 0.5,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.3626,
+        "rank": 14,
+        "is_viable": true
+      }
+    ],
+    "primary_recommendation": {
+      "source_id": "VAD-Q08",
+      "source_name": "Borsheti Quarry",
+      "material_name": "Basalt stone / Aggregate",
+      "source_type": "quarry",
+      "excluded": false,
+      "raw_cost": 53609.889,
+      "raw_logistics": 24.0,
+      "raw_environmental": 0.5,
+      "raw_resilience": 0.65,
+      "cost_available": true,
+      "distance_available": true,
+      "environmental_available": false,
+      "resilience_available": true,
+      "actual_cost": 53609.889,
+      "actual_distance_km": 24.0,
+      "actual_environmental_score": null,
+      "actual_resilience_score": 0.65,
+      "cost_status": "documented/calculated",
+      "distance_status": "documented",
+      "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+      "resilience_status": "calculated",
+      "is_provisional": true,
+      "recommendation_status": "provisional_indicative",
+      "closeness_coefficient": 0.8101,
+      "rank": 1,
+      "is_viable": true
+    },
+    "fallback_alternatives": [
+      {
+        "source_id": "VAD-Q09",
+        "source_name": "Kirat Quarry",
+        "material_name": "Basalt stone / Aggregate",
+        "rank": 2,
+        "closeness_coefficient": 0.803,
+        "resilience_score": 0.65,
+        "alternative_count": 7,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience",
+          "Same material as primary - direct substitute"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "VAD-Q10",
+        "source_name": "Nagzari Quarry",
+        "material_name": "Basalt stone / Aggregate / Armour stone",
+        "rank": 3,
+        "closeness_coefficient": 0.796,
+        "resilience_score": 0.65,
+        "alternative_count": 6,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "VAD-Q11",
+        "source_name": "Girnoli Quarry",
+        "material_name": "Basalt stone / Aggregate",
+        "rank": 4,
+        "closeness_coefficient": 0.7823,
+        "resilience_score": 0.65,
+        "alternative_count": 7,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience",
+          "Same material as primary - direct substitute"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "VAD-D01",
+        "source_name": "Vadhavan Port Approach Channel & Navigation Basin Capital Dredging",
+        "material_name": "Dredged material suitable for reclamation fill",
+        "rank": 5,
+        "closeness_coefficient": 0.6083,
+        "resilience_score": 0.3,
+        "alternative_count": 0,
+        "fallback_feasible": false,
+        "feasibility_reasons": [
+          "Viable TOPSIS score"
+        ],
+        "is_viable_fallback": false
+      },
+      {
+        "source_id": "VAD-M01",
+        "source_name": "Offshore Daman Sand Borrow Area (OAMDR Act Reserved Area)",
+        "material_name": "Marine sand / Reclamation fill",
+        "rank": 6,
+        "closeness_coefficient": 0.4884,
+        "resilience_score": 0.3,
+        "alternative_count": 0,
+        "fallback_feasible": false,
+        "feasibility_reasons": [
+          "Viable TOPSIS score"
+        ],
+        "is_viable_fallback": false
+      },
+      {
+        "source_id": "VAD-Q02",
+        "source_name": "Gargaon Quarry (Hillock B)",
+        "material_name": "Basalt rock / Hard murrum",
+        "rank": 7,
+        "closeness_coefficient": 0.4778,
+        "resilience_score": 0.7,
+        "alternative_count": 48,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "VAD-Q04",
+        "source_name": "Khanivade Quarry (Hillock D)",
+        "material_name": "Basalt rock / Hard murrum",
+        "rank": 8,
+        "closeness_coefficient": 0.4725,
+        "resilience_score": 0.7,
+        "alternative_count": 48,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "VAD-Q05",
+        "source_name": "Mahagaon Quarry (Hillock E)",
+        "material_name": "Basalt rock / Hard murrum",
+        "rank": 9,
+        "closeness_coefficient": 0.4699,
+        "resilience_score": 0.7,
+        "alternative_count": 48,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "VAD-Q06",
+        "source_name": "Mahagaon Quarry (Hillock F)",
+        "material_name": "Basalt rock / Hard murrum",
+        "rank": 10,
+        "closeness_coefficient": 0.4699,
+        "resilience_score": 0.7,
+        "alternative_count": 48,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "VAD-Q07",
+        "source_name": "Nanivali Quarry (Hillock G)",
+        "material_name": "Basalt rock / Hard murrum",
+        "rank": 11,
+        "closeness_coefficient": 0.4565,
+        "resilience_score": 0.7,
+        "alternative_count": 48,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "VAD-M02",
+        "source_name": "Vadhavan Port Concrete Element Casting Yard",
+        "material_name": "Accropode II concrete armour units (11 cum and 13 cum units)",
+        "rank": 12,
+        "closeness_coefficient": 0.4094,
+        "resilience_score": 0.3,
+        "alternative_count": 0,
+        "fallback_feasible": false,
+        "feasibility_reasons": [
+          "Viable TOPSIS score"
+        ],
+        "is_viable_fallback": false
+      },
+      {
+        "source_id": "VAD-Q01",
+        "source_name": "Gargaon Quarry (Hillock A) / Patch-1",
+        "material_name": "Basalt rock / Hard murrum",
+        "rank": 13,
+        "closeness_coefficient": 0.3715,
+        "resilience_score": 0.5,
+        "alternative_count": 48,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "VAD-Q03",
+        "source_name": "Khanivade Quarry (Hillock C) / Patch-5",
+        "material_name": "Basalt rock / Hard murrum",
+        "rank": 14,
+        "closeness_coefficient": 0.3626,
+        "resilience_score": 0.5,
+        "alternative_count": 48,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      }
+    ],
+    "final_sourcing_plan": [
+      {
+        "material_name": "Basalt stone / Aggregate",
+        "recommendation_status": "provisional_indicative",
+        "is_provisional": true,
+        "has_viable_source": true,
+        "primary_source": {
+          "source_id": "VAD-Q08",
+          "source_name": "Borsheti Quarry",
+          "source_type": "quarry",
+          "closeness_coefficient": 0.8101,
+          "resilience_score": 0.65,
+          "raw_cost": 53609.889,
+          "raw_logistics_distance_km": 24.0,
+          "raw_environmental_impact": 0.5,
+          "cost_status": "documented/calculated",
+          "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+          "resilience_status": "calculated",
+          "is_viable": true
+        },
+        "fallback_sources": [
+          {
+            "source_id": "VAD-Q09",
+            "source_name": "Kirat Quarry",
+            "rank_overall": 2,
+            "closeness_coefficient": 0.803,
+            "resilience_score": 0.65,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.65. Provides supply redundancy if primary source experiences disruption."
+          },
+          {
+            "source_id": "VAD-Q11",
+            "source_name": "Girnoli Quarry",
+            "rank_overall": 4,
+            "closeness_coefficient": 0.7823,
+            "resilience_score": 0.65,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.65. Provides supply redundancy if primary source experiences disruption."
+          }
+        ],
+        "fallback_feasible": true,
+        "sourcing_strategy": "Primary source 'Borsheti Quarry' recommended for Basalt stone / Aggregate based on TOPSIS closeness coefficient 0.8101 and resilience score 0.65. [NOTICE: Sourcing evaluation is PROVISIONAL / INDICATIVE. Some criteria such as numerical environmental scores or commercial unit prices are not published in project documents; neutral mathematical assumptions were used for TOPSIS calculation. Field verification and formal bidding are required before contract commitment.] 2 fallback alternative(s) identified. Top fallback 'Kirat Quarry' ensures operational continuity."
+      },
+      {
+        "material_name": "Basalt stone / Aggregate / Armour stone",
+        "recommendation_status": "provisional_indicative",
+        "is_provisional": true,
+        "has_viable_source": true,
+        "primary_source": {
+          "source_id": "VAD-Q10",
+          "source_name": "Nagzari Quarry",
+          "source_type": "quarry",
+          "closeness_coefficient": 0.796,
+          "resilience_score": 0.65,
+          "raw_cost": 53609.889,
+          "raw_logistics_distance_km": 26.0,
+          "raw_environmental_impact": 0.5,
+          "cost_status": "documented/calculated",
+          "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+          "resilience_status": "calculated",
+          "is_viable": true
+        },
+        "fallback_sources": [],
+        "fallback_feasible": false,
+        "sourcing_strategy": "Primary source 'Nagzari Quarry' recommended for Basalt stone / Aggregate / Armour stone based on TOPSIS closeness coefficient 0.7960 and resilience score 0.65. [NOTICE: Sourcing evaluation is PROVISIONAL / INDICATIVE. Some criteria such as numerical environmental scores or commercial unit prices are not published in project documents; neutral mathematical assumptions were used for TOPSIS calculation. Field verification and formal bidding are required before contract commitment.] Single-source dependency warning: No alternative viable source identified. Recommend qualifying additional suppliers to reduce supply risk."
+      },
+      {
+        "material_name": "Dredged material suitable for reclamation fill",
+        "recommendation_status": "provisional_indicative",
+        "is_provisional": true,
+        "has_viable_source": true,
+        "primary_source": {
+          "source_id": "VAD-D01",
+          "source_name": "Vadhavan Port Approach Channel & Navigation Basin Capital Dredging",
+          "source_type": "dredging_source",
+          "closeness_coefficient": 0.6083,
+          "resilience_score": 0.3,
+          "raw_cost": 10418.66,
+          "raw_logistics_distance_km": 5.0,
+          "raw_environmental_impact": 0.5,
+          "cost_status": "documented/calculated",
+          "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+          "resilience_status": "calculated",
+          "is_viable": true
+        },
+        "fallback_sources": [],
+        "fallback_feasible": false,
+        "sourcing_strategy": "Primary source 'Vadhavan Port Approach Channel & Navigation Basin Capital Dredging' recommended for Dredged material suitable for reclamation fill based on TOPSIS closeness coefficient 0.6083 and resilience score 0.3. [NOTICE: Sourcing evaluation is PROVISIONAL / INDICATIVE. Some criteria such as numerical environmental scores or commercial unit prices are not published in project documents; neutral mathematical assumptions were used for TOPSIS calculation. Field verification and formal bidding are required before contract commitment.] Single-source dependency warning: No alternative viable source identified. Recommend qualifying additional suppliers to reduce supply risk."
+      },
+      {
+        "material_name": "Marine sand / Reclamation fill",
+        "recommendation_status": "provisional_indicative",
+        "is_provisional": true,
+        "has_viable_source": true,
+        "primary_source": {
+          "source_id": "VAD-M01",
+          "source_name": "Offshore Daman Sand Borrow Area (OAMDR Act Reserved Area)",
+          "source_type": "marine_borrow",
+          "closeness_coefficient": 0.4884,
+          "resilience_score": 0.3,
+          "raw_cost": 263443.26,
+          "raw_logistics_distance_km": 55.0,
+          "raw_environmental_impact": 0.5,
+          "cost_status": "documented/calculated",
+          "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+          "resilience_status": "calculated",
+          "is_viable": true
+        },
+        "fallback_sources": [],
+        "fallback_feasible": false,
+        "sourcing_strategy": "Primary source 'Offshore Daman Sand Borrow Area (OAMDR Act Reserved Area)' recommended for Marine sand / Reclamation fill based on TOPSIS closeness coefficient 0.4884 and resilience score 0.3. [NOTICE: Sourcing evaluation is PROVISIONAL / INDICATIVE. Some criteria such as numerical environmental scores or commercial unit prices are not published in project documents; neutral mathematical assumptions were used for TOPSIS calculation. Field verification and formal bidding are required before contract commitment.] Single-source dependency warning: No alternative viable source identified. Recommend qualifying additional suppliers to reduce supply risk."
+      },
+      {
+        "material_name": "Basalt rock / Hard murrum",
+        "recommendation_status": "provisional_indicative",
+        "is_provisional": true,
+        "has_viable_source": true,
+        "primary_source": {
+          "source_id": "VAD-Q02",
+          "source_name": "Gargaon Quarry (Hillock B)",
+          "source_type": "quarry",
+          "closeness_coefficient": 0.4778,
+          "resilience_score": 0.7,
+          "raw_cost": 5022882519.679999,
+          "raw_logistics_distance_km": 17.0,
+          "raw_environmental_impact": 0.5,
+          "cost_status": "documented/calculated",
+          "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+          "resilience_status": "calculated",
+          "is_viable": true
+        },
+        "fallback_sources": [
+          {
+            "source_id": "VAD-Q04",
+            "source_name": "Khanivade Quarry (Hillock D)",
+            "rank_overall": 8,
+            "closeness_coefficient": 0.4725,
+            "resilience_score": 0.7,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.7. Provides supply redundancy if primary source experiences disruption."
+          },
+          {
+            "source_id": "VAD-Q05",
+            "source_name": "Mahagaon Quarry (Hillock E)",
+            "rank_overall": 9,
+            "closeness_coefficient": 0.4699,
+            "resilience_score": 0.7,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.7. Provides supply redundancy if primary source experiences disruption."
+          },
+          {
+            "source_id": "VAD-Q06",
+            "source_name": "Mahagaon Quarry (Hillock F)",
+            "rank_overall": 10,
+            "closeness_coefficient": 0.4699,
+            "resilience_score": 0.7,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.7. Provides supply redundancy if primary source experiences disruption."
+          },
+          {
+            "source_id": "VAD-Q07",
+            "source_name": "Nanivali Quarry (Hillock G)",
+            "rank_overall": 11,
+            "closeness_coefficient": 0.4565,
+            "resilience_score": 0.7,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.7. Provides supply redundancy if primary source experiences disruption."
+          },
+          {
+            "source_id": "VAD-Q01",
+            "source_name": "Gargaon Quarry (Hillock A) / Patch-1",
+            "rank_overall": 13,
+            "closeness_coefficient": 0.3715,
+            "resilience_score": 0.5,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.5. Provides supply redundancy if primary source experiences disruption."
+          },
+          {
+            "source_id": "VAD-Q03",
+            "source_name": "Khanivade Quarry (Hillock C) / Patch-5",
+            "rank_overall": 14,
+            "closeness_coefficient": 0.3626,
+            "resilience_score": 0.5,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.5. Provides supply redundancy if primary source experiences disruption."
+          }
+        ],
+        "fallback_feasible": true,
+        "sourcing_strategy": "Primary source 'Gargaon Quarry (Hillock B)' recommended for Basalt rock / Hard murrum based on TOPSIS closeness coefficient 0.4778 and resilience score 0.7. [NOTICE: Sourcing evaluation is PROVISIONAL / INDICATIVE. Some criteria such as numerical environmental scores or commercial unit prices are not published in project documents; neutral mathematical assumptions were used for TOPSIS calculation. Field verification and formal bidding are required before contract commitment.] 6 fallback alternative(s) identified. Top fallback 'Khanivade Quarry (Hillock D)' ensures operational continuity."
+      },
+      {
+        "material_name": "Accropode II concrete armour units (11 cum and 13 cum units)",
+        "recommendation_status": "provisional_indicative",
+        "is_provisional": true,
+        "has_viable_source": true,
+        "primary_source": {
+          "source_id": "VAD-M02",
+          "source_name": "Vadhavan Port Concrete Element Casting Yard",
+          "source_type": "manufacturing_unit",
+          "closeness_coefficient": 0.4094,
+          "resilience_score": 0.3,
+          "raw_cost": 3750436891.3530793,
+          "raw_logistics_distance_km": 3.0,
+          "raw_environmental_impact": 0.5,
+          "cost_status": "unavailable (neutral average applied for TOPSIS)",
+          "environmental_status": "unavailable (neutral 0.5 applied for TOPSIS)",
+          "resilience_status": "calculated",
+          "is_viable": true
+        },
+        "fallback_sources": [],
+        "fallback_feasible": false,
+        "sourcing_strategy": "Primary source 'Vadhavan Port Concrete Element Casting Yard' recommended for Accropode II concrete armour units (11 cum and 13 cum units) based on TOPSIS closeness coefficient 0.4094 and resilience score 0.3. [NOTICE: Sourcing evaluation is PROVISIONAL / INDICATIVE. Some criteria such as numerical environmental scores or commercial unit prices are not published in project documents; neutral mathematical assumptions were used for TOPSIS calculation. Field verification and formal bidding are required before contract commitment.] Single-source dependency warning: No alternative viable source identified. Recommend qualifying additional suppliers to reduce supply risk."
+      }
+    ],
+    "resilience_explanation": "Resilience is weighted at 42.0% in the multi-criteria decision framework, reflecting the critical need for supply continuity in large-scale infrastructure projects. Primary selection 'Borsheti Quarry' (Basalt stone / Aggregate) achieves the highest overall TOPSIS score (0.8101), optimizing the trade-off across cost, logistics, environmental footprint, and resilience. 8 viable fallback alternative(s) were identified across materials ('Kirat Quarry', 'Girnoli Quarry', 'Khanivade Quarry (Hillock D)'). These alternatives provide critical operational buffering against supply chain disruptions, such as seasonal monsoon closures, transport corridor failures, or capacity constraints. Notice: Material 'Basalt stone / Aggregate / Armour stone' exhibits single-source dependency. A proactive risk mitigation strategy is recommended. Notice: Material 'Dredged material suitable for reclamation fill' exhibits single-source dependency. A proactive risk mitigation strategy is recommended. Notice: Material 'Marine sand / Reclamation fill' exhibits single-source dependency. A proactive risk mitigation strategy is recommended. Notice: Material 'Accropode II concrete armour units (11 cum and 13 cum units)' exhibits single-source dependency. A proactive risk mitigation strategy is recommended.",
+    "excluded_alternatives": [],
+    "total_alternatives_evaluated": 14,
+    "total_alternatives_excluded": 0,
+    "data_type": "calculated",
+    "data_provenance": "Decision computed deterministically using AHP-TOPSIS. Input data includes demonstration/assumption values from upstream agents. Results are indicative, not verified."
+  },
+  "messages": [
+    "Agent 4: Evaluated 14 alternative(s) using AHP-TOPSIS with 4 criteria.",
+    "Agent 4: Primary recommendation is Borsheti Quarry (closeness=0.8101).",
+    "Agent 4: Identified 10 viable fallback(s) out of 13 alternative(s)."
+  ],
+  "current_agent": "decision",
+  "completed_agents": [
+    "decision"
+  ]
+}

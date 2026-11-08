@@ -1,0 +1,480 @@
+{
+  "decision_results": {
+    "methodology": "AHP-TOPSIS",
+    "ahp": {
+      "pairwise_matrix": [
+        [
+          1.0,
+          2.0,
+          2.0,
+          0.5
+        ],
+        [
+          0.5,
+          1.0,
+          0.5,
+          0.3333333333333333
+        ],
+        [
+          0.5,
+          2.0,
+          1.0,
+          0.5
+        ],
+        [
+          2.0,
+          3.0,
+          2.0,
+          1.0
+        ]
+      ],
+      "criteria": [
+        "cost",
+        "logistics",
+        "environmental",
+        "resilience"
+      ],
+      "criterion_types": {
+        "cost": "cost",
+        "logistics": "cost",
+        "environmental": "cost",
+        "resilience": "benefit"
+      },
+      "weights": {
+        "cost": 0.2685,
+        "logistics": 0.1213,
+        "environmental": 0.1899,
+        "resilience": 0.4203
+      },
+      "lambda_max": 4.0709,
+      "consistency_index": 0.0236,
+      "consistency_ratio": 0.0262,
+      "is_consistent": true
+    },
+    "topsis": {
+      "decision_matrix_size": "5 alternatives x 4 criteria",
+      "normalized_matrix": [
+        [
+          0.38352781577520506,
+          0.0751756257809989,
+          0.5304208084917299,
+          0.4631327405154507
+        ],
+        [
+          0.45608713227321684,
+          0.10613029522023373,
+          0.5304208084917299,
+          0.4631327405154507
+        ],
+        [
+          0.4975495988435093,
+          0.12381867775693936,
+          0.5304208084917299,
+          0.4631327405154507
+        ],
+        [
+          0.4457215156306437,
+          0.14592915592782138,
+          0.3164695580076708,
+          0.41555060964057566
+        ],
+        [
+          0.4457215156306437,
+          0.9728610395188093,
+          0.23623783907614862,
+          0.42876786821692986
+        ]
+      ],
+      "weighted_matrix": [
+        [
+          0.10297721853564257,
+          0.009118803407235167,
+          0.10072691153257951,
+          0.19465469083864395
+        ],
+        [
+          0.12245939501535873,
+          0.012873604810214353,
+          0.10072691153257951,
+          0.19465469083864395
+        ],
+        [
+          0.13359206728948225,
+          0.015019205611916745,
+          0.10072691153257951,
+          0.19465469083864395
+        ],
+        [
+          0.11967622694682785,
+          0.017701206614044736,
+          0.060097569065656685,
+          0.17465592123193396
+        ],
+        [
+          0.11967622694682785,
+          0.11800804409363158,
+          0.044861565640560624,
+          0.18021113501157562
+        ]
+      ],
+      "ideal_solution": [
+        0.102977,
+        0.009119,
+        0.044862,
+        0.194655
+      ],
+      "negative_ideal_solution": [
+        0.133592,
+        0.118008,
+        0.100727,
+        0.174656
+      ],
+      "d_plus": [
+        0.055865,
+        0.059284,
+        0.063977,
+        0.031378,
+        0.111105
+      ],
+      "d_minus": [
+        0.114866,
+        0.107597,
+        0.104913,
+        0.109114,
+        0.05784
+      ],
+      "closeness_coefficients": [
+        0.6728,
+        0.6448,
+        0.6212,
+        0.7767,
+        0.3424
+      ]
+    },
+    "ranking": [
+      {
+        "source_id": "DEMO-C01",
+        "source_name": "UltraTech Cement Roha",
+        "material_name": "Cement",
+        "source_type": "supplier",
+        "excluded": false,
+        "raw_cost": 31056.75,
+        "raw_logistics": 165.0,
+        "raw_environmental": 0.284,
+        "raw_resilience": 0.786,
+        "cost_available": false,
+        "distance_available": true,
+        "environmental_available": true,
+        "resilience_available": true,
+        "actual_cost": null,
+        "actual_distance_km": 165.0,
+        "actual_environmental_score": 0.284,
+        "actual_resilience_score": 0.786,
+        "cost_status": "unavailable (neutral average applied for TOPSIS)",
+        "distance_status": "documented",
+        "environmental_status": "documented",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.7767,
+        "rank": 1,
+        "is_viable": true
+      },
+      {
+        "source_id": "DEMO-Q01",
+        "source_name": "Kaman Quarry",
+        "material_name": "Rock/Stone",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 26723.25,
+        "raw_logistics": 85.0,
+        "raw_environmental": 0.476,
+        "raw_resilience": 0.876,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": true,
+        "resilience_available": true,
+        "actual_cost": 26723.25,
+        "actual_distance_km": 85.0,
+        "actual_environmental_score": 0.476,
+        "actual_resilience_score": 0.876,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "documented",
+        "resilience_status": "calculated",
+        "is_provisional": false,
+        "recommendation_status": "verified_recommendation",
+        "closeness_coefficient": 0.6728,
+        "rank": 2,
+        "is_viable": true
+      },
+      {
+        "source_id": "DEMO-Q02",
+        "source_name": "Pen Quarry",
+        "material_name": "Rock/Stone",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 31779.0,
+        "raw_logistics": 120.0,
+        "raw_environmental": 0.476,
+        "raw_resilience": 0.876,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": true,
+        "resilience_available": true,
+        "actual_cost": 31779.0,
+        "actual_distance_km": 120.0,
+        "actual_environmental_score": 0.476,
+        "actual_resilience_score": 0.876,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "documented",
+        "resilience_status": "calculated",
+        "is_provisional": false,
+        "recommendation_status": "verified_recommendation",
+        "closeness_coefficient": 0.6448,
+        "rank": 3,
+        "is_viable": true
+      },
+      {
+        "source_id": "DEMO-Q03",
+        "source_name": "Ambernath Quarry",
+        "material_name": "Rock/Stone",
+        "source_type": "quarry",
+        "excluded": false,
+        "raw_cost": 34668.0,
+        "raw_logistics": 140.0,
+        "raw_environmental": 0.476,
+        "raw_resilience": 0.876,
+        "cost_available": true,
+        "distance_available": true,
+        "environmental_available": true,
+        "resilience_available": true,
+        "actual_cost": 34668.0,
+        "actual_distance_km": 140.0,
+        "actual_environmental_score": 0.476,
+        "actual_resilience_score": 0.876,
+        "cost_status": "documented/calculated",
+        "distance_status": "documented",
+        "environmental_status": "documented",
+        "resilience_status": "calculated",
+        "is_provisional": false,
+        "recommendation_status": "verified_recommendation",
+        "closeness_coefficient": 0.6212,
+        "rank": 4,
+        "is_viable": true
+      },
+      {
+        "source_id": "DEMO-C02",
+        "source_name": "ACC Cement Kymore",
+        "material_name": "Cement",
+        "source_type": "supplier",
+        "excluded": false,
+        "raw_cost": 31056.75,
+        "raw_logistics": 1100.0,
+        "raw_environmental": 0.212,
+        "raw_resilience": 0.811,
+        "cost_available": false,
+        "distance_available": true,
+        "environmental_available": true,
+        "resilience_available": true,
+        "actual_cost": null,
+        "actual_distance_km": 1100.0,
+        "actual_environmental_score": 0.212,
+        "actual_resilience_score": 0.811,
+        "cost_status": "unavailable (neutral average applied for TOPSIS)",
+        "distance_status": "documented",
+        "environmental_status": "documented",
+        "resilience_status": "calculated",
+        "is_provisional": true,
+        "recommendation_status": "provisional_indicative",
+        "closeness_coefficient": 0.3424,
+        "rank": 5,
+        "is_viable": true
+      }
+    ],
+    "primary_recommendation": {
+      "source_id": "DEMO-C01",
+      "source_name": "UltraTech Cement Roha",
+      "material_name": "Cement",
+      "source_type": "supplier",
+      "excluded": false,
+      "raw_cost": 31056.75,
+      "raw_logistics": 165.0,
+      "raw_environmental": 0.284,
+      "raw_resilience": 0.786,
+      "cost_available": false,
+      "distance_available": true,
+      "environmental_available": true,
+      "resilience_available": true,
+      "actual_cost": null,
+      "actual_distance_km": 165.0,
+      "actual_environmental_score": 0.284,
+      "actual_resilience_score": 0.786,
+      "cost_status": "unavailable (neutral average applied for TOPSIS)",
+      "distance_status": "documented",
+      "environmental_status": "documented",
+      "resilience_status": "calculated",
+      "is_provisional": true,
+      "recommendation_status": "provisional_indicative",
+      "closeness_coefficient": 0.7767,
+      "rank": 1,
+      "is_viable": true
+    },
+    "fallback_alternatives": [
+      {
+        "source_id": "DEMO-Q01",
+        "source_name": "Kaman Quarry",
+        "material_name": "Rock/Stone",
+        "rank": 2,
+        "closeness_coefficient": 0.6728,
+        "resilience_score": 0.876,
+        "alternative_count": 2,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "DEMO-Q02",
+        "source_name": "Pen Quarry",
+        "material_name": "Rock/Stone",
+        "rank": 3,
+        "closeness_coefficient": 0.6448,
+        "resilience_score": 0.876,
+        "alternative_count": 2,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "DEMO-Q03",
+        "source_name": "Ambernath Quarry",
+        "material_name": "Rock/Stone",
+        "rank": 4,
+        "closeness_coefficient": 0.6212,
+        "resilience_score": 0.876,
+        "alternative_count": 2,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience"
+        ],
+        "is_viable_fallback": true
+      },
+      {
+        "source_id": "DEMO-C02",
+        "source_name": "ACC Cement Kymore",
+        "material_name": "Cement",
+        "rank": 5,
+        "closeness_coefficient": 0.3424,
+        "resilience_score": 0.811,
+        "alternative_count": 1,
+        "fallback_feasible": true,
+        "feasibility_reasons": [
+          "Viable TOPSIS score",
+          "Adequate resilience",
+          "Same material as primary - direct substitute"
+        ],
+        "is_viable_fallback": true
+      }
+    ],
+    "final_sourcing_plan": [
+      {
+        "material_name": "Cement",
+        "recommendation_status": "provisional_indicative",
+        "is_provisional": true,
+        "has_viable_source": true,
+        "primary_source": {
+          "source_id": "DEMO-C01",
+          "source_name": "UltraTech Cement Roha",
+          "source_type": "supplier",
+          "closeness_coefficient": 0.7767,
+          "resilience_score": 0.786,
+          "raw_cost": 31056.75,
+          "raw_logistics_distance_km": 165.0,
+          "raw_environmental_impact": 0.284,
+          "cost_status": "unavailable (neutral average applied for TOPSIS)",
+          "environmental_status": "documented",
+          "resilience_status": "calculated",
+          "is_viable": true
+        },
+        "fallback_sources": [
+          {
+            "source_id": "DEMO-C02",
+            "source_name": "ACC Cement Kymore",
+            "rank_overall": 5,
+            "closeness_coefficient": 0.3424,
+            "resilience_score": 0.811,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.811. Provides supply redundancy if primary source experiences disruption."
+          }
+        ],
+        "fallback_feasible": true,
+        "sourcing_strategy": "Primary source 'UltraTech Cement Roha' recommended for Cement based on TOPSIS closeness coefficient 0.7767 and resilience score 0.786. [NOTICE: Sourcing evaluation is PROVISIONAL / INDICATIVE. Some criteria such as numerical environmental scores or commercial unit prices are not published in project documents; neutral mathematical assumptions were used for TOPSIS calculation. Field verification and formal bidding are required before contract commitment.] 1 fallback alternative(s) identified. Top fallback 'ACC Cement Kymore' ensures operational continuity."
+      },
+      {
+        "material_name": "Rock/Stone",
+        "recommendation_status": "verified_recommendation",
+        "is_provisional": false,
+        "has_viable_source": true,
+        "primary_source": {
+          "source_id": "DEMO-Q01",
+          "source_name": "Kaman Quarry",
+          "source_type": "quarry",
+          "closeness_coefficient": 0.6728,
+          "resilience_score": 0.876,
+          "raw_cost": 26723.25,
+          "raw_logistics_distance_km": 85.0,
+          "raw_environmental_impact": 0.476,
+          "cost_status": "documented/calculated",
+          "environmental_status": "documented",
+          "resilience_status": "calculated",
+          "is_viable": true
+        },
+        "fallback_sources": [
+          {
+            "source_id": "DEMO-Q02",
+            "source_name": "Pen Quarry",
+            "rank_overall": 3,
+            "closeness_coefficient": 0.6448,
+            "resilience_score": 0.876,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.876. Provides supply redundancy if primary source experiences disruption."
+          },
+          {
+            "source_id": "DEMO-Q03",
+            "source_name": "Ambernath Quarry",
+            "rank_overall": 4,
+            "closeness_coefficient": 0.6212,
+            "resilience_score": 0.876,
+            "is_viable": true,
+            "feasibility_notes": "Direct substitute with resilience score 0.876. Provides supply redundancy if primary source experiences disruption."
+          }
+        ],
+        "fallback_feasible": true,
+        "sourcing_strategy": "Primary source 'Kaman Quarry' recommended for Rock/Stone based on TOPSIS closeness coefficient 0.6728 and resilience score 0.876. 2 fallback alternative(s) identified. Top fallback 'Pen Quarry' ensures operational continuity."
+      }
+    ],
+    "resilience_explanation": "Resilience is weighted at 42.0% in the multi-criteria decision framework, reflecting the critical need for supply continuity in large-scale infrastructure projects. Primary selection 'UltraTech Cement Roha' (Cement) achieves the highest overall TOPSIS score (0.7767), optimizing the trade-off across cost, logistics, environmental footprint, and resilience. 3 viable fallback alternative(s) were identified across materials ('ACC Cement Kymore', 'Pen Quarry', 'Ambernath Quarry'). These alternatives provide critical operational buffering against supply chain disruptions, such as seasonal monsoon closures, transport corridor failures, or capacity constraints.",
+    "excluded_alternatives": [],
+    "total_alternatives_evaluated": 5,
+    "total_alternatives_excluded": 0,
+    "data_type": "calculated",
+    "data_provenance": "Decision computed deterministically using AHP-TOPSIS. Input data includes demonstration/assumption values from upstream agents. Results are indicative, not verified."
+  },
+  "messages": [
+    "Agent 4: Evaluated 5 alternative(s) using AHP-TOPSIS with 4 criteria.",
+    "Agent 4: Primary recommendation is UltraTech Cement Roha (closeness=0.7767).",
+    "Agent 4: Identified 4 viable fallback(s) out of 4 alternative(s)."
+  ],
+  "current_agent": "decision",
+  "completed_agents": [
+    "decision"
+  ]
+}

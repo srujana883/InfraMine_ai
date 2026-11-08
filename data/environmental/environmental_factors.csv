@@ -1,0 +1,9 @@
+category,category_type,dust_emission_score,noise_score,water_impact_score,habitat_disruption_score,carbon_intensity_score,regulatory_sensitivity,data_type,notes
+quarry,source_type,0.7,0.6,0.3,0.5,0.4,medium,assumption,DEMO: Quarry operations generate dust and noise
+marine_borrow,source_type,0.2,0.3,0.7,0.6,0.3,high,assumption,DEMO: Marine borrow pits affect water and marine habitats
+dredging,source_type,0.1,0.3,0.8,0.7,0.3,high,assumption,DEMO: Dredging disturbs seabed and water quality
+supplier,source_type,0.3,0.2,0.1,0.1,0.2,low,assumption,DEMO: Manufactured/supplied materials have lower direct impact
+road,transport_mode,0.5,0.6,0.1,0.3,0.7,medium,assumption,DEMO: Road transport generates emissions and noise
+rail,transport_mode,0.2,0.4,0.1,0.2,0.4,low,assumption,DEMO: Rail transport is more efficient per tonne-km
+marine,transport_mode,0.1,0.2,0.4,0.3,0.3,medium,assumption,DEMO: Marine transport has water impact but lower carbon per km
+

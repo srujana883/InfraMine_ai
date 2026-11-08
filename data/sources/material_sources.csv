@@ -1,0 +1,15 @@
+source_id,source_name,source_type,material_name,material_specification,latitude,longitude,available_quantity,quantity_unit,availability_status,distance_km,transport_mode,operational_status,quality_notes,source_reference,data_type
+DEMO-Q01,Kaman Quarry,quarry,Rock/Stone,,19.45,73.52,5000000,tonnes,available,85,road,operational,Basalt rock suitable for breakwater armour,Demo data based on Maharashtra quarry locations,demonstration
+DEMO-Q02,Pen Quarry,quarry,Rock/Stone,,18.73,73.10,3000000,tonnes,available,120,road,operational,Hard rock for construction,Demo data based on Maharashtra quarry locations,demonstration
+DEMO-Q03,Ambernath Quarry,quarry,Rock/Stone,,19.19,73.18,2000000,tonnes,available,140,road,operational,Basalt aggregate and stone,Demo data based on Maharashtra quarry locations,demonstration
+DEMO-M01,Marine Borrow Area A,marine_borrow,Fill Material (Sand),,19.85,72.60,50000000,m³,available,15,marine,operational,Marine sand for reclamation,Demo data - offshore borrow pit,demonstration
+DEMO-M02,Marine Borrow Area B,marine_borrow,Fill Material (Sand),,19.75,72.55,30000000,m³,available,25,marine,operational,Marine sand and sediment,Demo data - offshore borrow pit,demonstration
+DEMO-C01,UltraTech Cement Roha,supplier,Cement,,18.44,73.12,,tonnes,available,165,road,operational,OPC 53 grade and PPC,Demo data based on cement plant locations,demonstration
+DEMO-C02,ACC Cement Kymore,supplier,Cement,,24.06,80.59,,tonnes,available,1100,rail,operational,OPC and PPC grades,Demo data based on cement plant locations,demonstration
+DEMO-S01,JSW Steel Dolvi,supplier,Steel Reinforcement,Fe500D,18.68,72.90,,tonnes,available,145,road,operational,TMT bars Fe500D IS 1786,Demo data based on steel plant locations,demonstration
+DEMO-S02,Tata Steel Jamshedpur,supplier,Steel Reinforcement,Fe500D,22.80,86.18,,tonnes,available,1600,rail,operational,TMT bars Fe500D IS 1786,Demo data based on steel plant locations,demonstration
+DEMO-R01,Dredging Channel Material,dredging,Dredged Material,,19.82,72.70,7000000,m³,available,5,marine,planned,Material from approach channel dredging,DPR evidence - channel dredging,document_evidence
+DEMO-A01,Accropode Manufacturing Unit,supplier,Accropode II Armour Units,,19.50,73.00,,units,planned,80,road,planned,Precast concrete armour units,Demo data - manufacturing facility,demonstration
+DEMO-G01,Geotextile Supplier Mumbai,supplier,Geotextile,,19.07,72.87,,m²,available,170,road,operational,Non-woven geotextile for filtration,Demo data based on supplier locations,demonstration
+DEMO-A02,RMC Plant Vadhavan,supplier,Concrete,,19.82,72.72,,m³,planned,5,road,planned,M40 and M25 grade ready-mix concrete,Demo data - proposed batching plant,demonstration
+

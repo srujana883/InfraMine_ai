@@ -1,0 +1,14 @@
+material_category,material_unit,unit_cost,cost_unit,cost_currency,transport_rate_road,transport_rate_rail,transport_rate_marine,transport_rate_unit,data_type,notes
+rock/stone,tonne,450,per_tonne,INR,4.5,2.8,1.5,INR_per_tonne_km,assumption,DEMO: Indicative rates for hard rock/stone in western India
+fill material,m3,180,per_m3,INR,5.0,3.0,1.2,INR_per_m3_km,assumption,DEMO: Indicative rates for earth/fill material
+sand,m3,600,per_m3,INR,5.5,3.2,1.5,INR_per_m3_km,assumption,DEMO: Indicative rates for construction sand
+cement,tonne,7500,per_tonne,INR,4.0,2.5,2.0,INR_per_tonne_km,assumption,DEMO: Indicative rates for OPC/PPC cement
+steel,tonne,65000,per_tonne,INR,5.0,3.0,2.5,INR_per_tonne_km,assumption,DEMO: Indicative rates for TMT reinforcement bars
+concrete,m3,6500,per_m3,INR,6.0,4.0,3.0,INR_per_m3_km,assumption,DEMO: Indicative rates for ready-mix concrete
+aggregate,tonne,550,per_tonne,INR,4.5,2.8,1.5,INR_per_tonne_km,assumption,DEMO: Indicative rates for crushed aggregate
+geotextile,m2,120,per_m2,INR,3.0,2.0,1.5,INR_per_m2_km,assumption,DEMO: Indicative rates for non-woven geotextile
+accropode,unit,85000,per_unit,INR,8.0,5.0,3.5,INR_per_unit_km,assumption,DEMO: Indicative rates for precast concrete armour units
+dredged material,m3,80,per_m3,INR,0,0,0.8,INR_per_m3_km,assumption,DEMO: Dredged material is marine-only transport
+armour,tonne,500,per_tonne,INR,4.5,2.8,1.5,INR_per_tonne_km,assumption,DEMO: Indicative rates for rock armour layers
+murrum,m3,250,per_m3,INR,5.0,3.0,1.5,INR_per_m3_km,assumption,DEMO: Indicative rates for murrum/laterite fill
+
